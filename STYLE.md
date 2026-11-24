@@ -2,55 +2,67 @@
 
 ## Megjelenés
 
-GTA VI / Vice City hangulat: naplementés színek, pálmafák,
-karakteres címek és letisztult kezelőfelület.
+Vice City hangulat: naplementés háttér, rózsaszín-lila kiemelések,
+karakteres címek és áttetsző, sötét kezelőfelületek.
 
-- A háttérkép maradjon látható.
-- A kártyák, menük és panelek áttetsző, sötét hátteret kapjanak.
-- Finom háttérelmosás, vékony keretek, visszafogott neonkiemelések.
-- Az autóadatbázis és a térkép esetén az olvashatóság az első.
+- A háttérkép maradjon látható a panelek mögött.
+- Kártyák és menük: áttetsző sötét háttér, finom háttérelmosás.
+- Vékony keretek, 12–16 px lekerekítés, visszafogott neonhatás.
+- Az adatbázisnál és a térképnél az olvashatóság az első.
 
 ## Színek
 
-- Alap: `#0F0F0F`
-- Szöveg: `#FFFFFF`
-- Elsődleges kiemelés: `#FF2D55`
-- Kiegészítők: `#EB9998`, `#5D549C`, `#6F70A2`,
-  `#7E3A63`, `#A373D3`
-- Áttetsző panelek: `rgba(15, 15, 15, 0.75)`
-- Finom keretek: `rgba(255, 255, 255, 0.12)`
+| Szerep | Szín |
+| --- | --- |
+| Sötét alap | `#0F0F0F` |
+| Szöveg | `#FFFFFF` |
+| Elsődleges kiemelés | `#FF2D55` |
+| Lazacrózsaszín | `#EB9998` |
+| Mélylila | `#5D549C` |
+| Tompa levendula | `#6F70A2` |
+| Szilva | `#7E3A63` |
+| Világoslila | `#A373D3` |
 
-![Színpaletta](assets/style/color-palette.png)
+- Panelháttér: `rgba(15, 15, 15, 0.75)`.
+- Finom keret: `rgba(255, 255, 255, 0.12)`.
+- Háttérelmosás: 12–16 px.
+- A szöveg és a háttér kontrasztja mindenhol legyen megfelelő.
+
+![Színpaletta](./assets/image1.png)
 
 ## Betűtípusok
 
-- **Bebas Neue:** nagy címek, szekciócímek.
+- **Bebas Neue:** főcímek és szekciócímek.
 - **Roboto:** szövegek, navigáció, gombok és adatok.
 - Törzsszöveg: 16 px; kisebb feliratok: 14 px.
+- A címek legyenek nagyok, rövidek és hangsúlyosak.
 
-![Stílus és tipográfia](assets/style/style-reference.png)
+![Szín- és tipográfiai referencia](./assets/image.png)
 
-## Háttér és képek
+## Háttérkép
 
-A naplementés kép a főoldal háttere. Szöveg alatt sötét,
-áttetsző fedőréteg biztosítsa az olvashatóságot.
+A naplementés kép adja az oldal vizuális alapját.
+Kitöltő háttérként jelenjen meg, szükség szerint sötét fedőréteggel.
+Mobilon a kivágást külön ellenőrizni kell.
 
-![Naplementés háttér](assets/style/sunset-background.png)
+![Pálmafás naplementés háttér](./assets/wJRxvPHcaWuYdDMbqcckyG.png)
 
-A logós képet teljes képaránnyal, levágás és ráhelyezett szöveg
-nélkül használjuk kiemelt illusztrációként.
+## Logós illusztráció
 
-![GTA VI logós illusztráció](assets/style/gta-vi-logo.png)
+Kiemelt főoldali képként használható, eredeti képaránnyal.
+A logót ne vágjuk le, és ne helyezzünk rá további szöveget.
+A kép saját hátteret tartalmaz, nem átlátszó logófájl.
 
-## Komponensek
+![GTA VI logós illusztráció](./assets/images3.png)
 
-- **Fejléc:** áttetsző sötét felület, aktív menüpont rózsaszínnel.
+## Fő elemek
+
+- **Fejléc:** áttetsző sötét felület, rózsaszín aktív menüpont.
 - **Gombok:** rózsaszín elsődleges, áttetsző másodlagos változat.
-- **Kártyák:** 12–16 px lekerekítés, finom keret, egységes autóképek.
+- **Autókártyák:** egységes képek, jól látható név és fő adatok.
 - **Adatbázis:** kereső, szűrők és reszponzív kártyarács.
-- **Térkép:** nagy térképfelület, áttetsző kezelőpanelek;
-  mobilon alulról nyitható részletek.
-- **Animációk:** rövid, 150–250 ms átmenetek.
+- **Térkép:** nagy térképfelület, áttetsző kereső- és szűrőpanelek.
+- **Animációk:** finom, 150–250 ms átmenetek.
 
-Mobilon egyoszlopos elrendezés, jól érinthető gombok és összecsukható
-szűrők legyenek. Minden interaktív elem kapjon látható fókuszállapotot.
+Mobilon egyoszlopos kártyarács és összecsukható szűrők legyenek.
+Minden interaktív elem kapjon jól látható fókuszállapotot.
