@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F0F0F" />
+      <stop offset="50%" stop-color="#171324" />
+      <stop offset="100%" stop-color="#241426" />
+    </linearGradient>
+
+    <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D55" />
+      <stop offset="35%" stop-color="#EB9998" />
+      <stop offset="70%" stop-color="#A373D3" />
+      <stop offset="100%" stop-color="#5D549C" />
+    </linearGradient>
+
+    <linearGradient id="panelFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1826" stop-opacity="0.82" />
+      <stop offset="100%" stop-color="#0F0F0F" stop-opacity="0.88" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Dark Container -->
+  <rect width="1200" height="620" rx="18" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="1200" height="5" rx="2" fill="url(#topAccent)" />
+
+  <!-- Section 1 Header: Core UI & Vice City Sunset Palette -->
+  <text x="48" y="54" fill="#FFFFFF" font-family="'Bebas Neue', 'Impact', 'Arial Narrow', sans-serif" font-size="34" font-weight="900" letter-spacing="2">
+    SZÍNPALETTA <tspan fill="#FF2D55">&amp;</tspan> VIZUÁLIS KARAKTER
+  </text>
+  <text x="48" y="78" fill="#EB9998" font-family="'Roboto', 'Segoe UI', sans-serif" font-size="14" font-weight="400">
+    Sötét alap (#0F0F0F), neon rózsaszín kiemelések (#FF2D55) és Vice City naplementés árnyalatok áttetsző (glassmorphism) felületekkel.
+  </text>
+
+  <!-- Row 1: Core UI Colors (3 Wide Swatches matching image.png) -->
+  <g transform="translate(48, 102)">
+    <!-- #0F0F0F Dark Base -->
+    <rect x="0" y="0" width="352" height="105" rx="14" fill="#0F0F0F" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1.5" />
+    <text x="24" y="42" fill="#FFFFFF" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="26" letter-spacing="1.5">SÖTÉT ALAP &amp; PANELEK</text>
+    <text x="24" y="68" fill="#A373D3" font-family="monospace" font-size="16" font-weight="700">#0F0F0F · rgba(15, 15, 15, 0.75)</text>
+    <text x="24" y="88" fill="#FFFFFF" fill-opacity="0.6" font-family="'Roboto', sans-serif" font-size="12">Háttérelmosás: 12–16px · Keret: rgba(255,255,255,0.12)</text>
+
+    <!-- #FF2D55 Primary Accent -->
+    <rect x="376" y="0" width="352" height="105" rx="14" fill="#FF2D55" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1.5" />
+    <text x="400" y="42" fill="#FFFFFF" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="26" letter-spacing="1.5">ELSŐDLEGES NEON KIEMELÉS</text>
+    <text x="400" y="68" fill="#FFFFFF" font-family="monospace" font-size="16" font-weight="700">#FF2D55</text>
+    <text x="400" y="88" fill="#FFFFFF" fill-opacity="0.9" font-family="'Roboto', sans-serif" font-size="12">Aktív menüpontok, elsődleges gombok, térkép blipek</text>
+
+    <!-- #FFFFFF Crisp Text -->
+    <rect x="752" y="0" width="352" height="105" rx="14" fill="#FFFFFF" />
+    <text x="776" y="42" fill="#0F0F0F" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="26" letter-spacing="1.5">KONTRAZTOS SZÖVEG &amp; IKONOK</text>
+    <text x="776" y="68" fill="#7E3A63" font-family="monospace" font-size="16" font-weight="700">#FFFFFF</text>
+    <text x="776" y="88" fill="#0F0F0F" fill-opacity="0.75" font-family="'Roboto', sans-serif" font-size="12">Maximális olvashatóság a térképen és adatbázisban</text>
+  </g>
+
+  <!-- Row 2: Vice City Sunset Palette (5 Vertical Cards matching image1.png) -->
+  <g transform="translate(48, 228)">
+    <!-- #EB9998 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="206" height="150" rx="14" fill="#EB9998" />
+      <rect x="14" y="96" width="178" height="42" rx="8" fill="#0F0F0F" fill-opacity="0.8" />
+      <text x="103" y="115" text-anchor="middle" fill="#EB9998" font-family="monospace" font-size="15" font-weight="700">#EB9998</text>
+      <text x="103" y="131" text-anchor="middle" fill="#FFFFFF" font-family="'Roboto', sans-serif" font-size="11">Lazacrózsaszín</text>
+    </g>
+
+    <!-- #5D549C -->
+    <g transform="translate(224.5, 0)">
+      <rect x="0" y="0" width="206" height="150" rx="14" fill="#5D549C" />
+      <rect x="14" y="96" width="178" height="42" rx="8" fill="#0F0F0F" fill-opacity="0.8" />
+      <text x="103" y="115" text-anchor="middle" fill="#A373D3" font-family="monospace" font-size="15" font-weight="700">#5D549C</text>
+      <text x="103" y="131" text-anchor="middle" fill="#FFFFFF" font-family="'Roboto', sans-serif" font-size="11">Mélylila</text>
+    </g>
+
+    <!-- #6F70A2 -->
+    <g transform="translate(449, 0)">
+      <rect x="0" y="0" width="206" height="150" rx="14" fill="#6F70A2" />
+      <rect x="14" y="96" width="178" height="42" rx="8" fill="#0F0F0F" fill-opacity="0.8" />
+      <text x="103" y="115" text-anchor="middle" fill="#EB9998" font-family="monospace" font-size="15" font-weight="700">#6F70A2</text>
+      <text x="103" y="131" text-anchor="middle" fill="#FFFFFF" font-family="'Roboto', sans-serif" font-size="11">Tompa levendula</text>
+    </g>
+
+    <!-- #7E3A63 -->
+    <g transform="translate(673.5, 0)">
+      <rect x="0" y="0" width="206" height="150" rx="14" fill="#7E3A63" />
+      <rect x="14" y="96" width="178" height="42" rx="8" fill="#0F0F0F" fill-opacity="0.8" />
+      <text x="103" y="115" text-anchor="middle" fill="#EB9998" font-family="monospace" font-size="15" font-weight="700">#7E3A63</text>
+      <text x="103" y="131" text-anchor="middle" fill="#FFFFFF" font-family="'Roboto', sans-serif" font-size="11">Szilva</text>
+    </g>
+
+    <!-- #A373D3 -->
+    <g transform="translate(898, 0)">
+      <rect x="0" y="0" width="206" height="150" rx="14" fill="#A373D3" />
+      <rect x="14" y="96" width="178" height="42" rx="8" fill="#0F0F0F" fill-opacity="0.8" />
+      <text x="103" y="115" text-anchor="middle" fill="#A373D3" font-family="monospace" font-size="15" font-weight="700">#A373D3</text>
+      <text x="103" y="131" text-anchor="middle" fill="#FFFFFF" font-family="'Roboto', sans-serif" font-size="11">Világoslila</text>
+    </g>
+  </g>
+
+  <!-- Row 3: Typography & UI Component Guidelines -->
+  <g transform="translate(48, 402)">
+    <!-- Typography Card -->
+    <rect x="0" y="0" width="540" height="176" rx="14" fill="url(#panelFill)" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5" />
+    <text x="28" y="38" fill="#FF2D55" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" letter-spacing="2">TIPOGRÁFIA (BETŰTÍPUSOK)</text>
+
+    <text x="28" y="84" fill="#FFFFFF" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="42" font-weight="900" letter-spacing="2">BEBAS NEUE — FŐCÍMEK</text>
+    <text x="28" y="106" fill="#EB9998" font-family="'Roboto', sans-serif" font-size="13">Nagy, rövid, karakteres és mozis szekciócímekhez.</text>
+
+    <text x="28" y="138" fill="#FFFFFF" font-family="'Roboto', 'Segoe UI', sans-serif" font-size="18" font-weight="700">Roboto — Szövegek, navigáció, gombok és adatok</text>
+    <text x="28" y="158" fill="#FFFFFF" fill-opacity="0.7" font-family="'Roboto', sans-serif" font-size="13">Törzsszöveg: 16 px · Kisebb feliratok és táblázatok: 14 px · Mobilon is kiválóan olvasható.</text>
+
+    <!-- UI Elements & Glassmorphism Spec Card -->
+    <rect x="564" y="0" width="540" height="176" rx="14" fill="url(#panelFill)" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5" />
+    <text x="592" y="38" fill="#A373D3" font-family="'Roboto', sans-serif" font-size="12" font-weight="700" letter-spacing="2">KEZELŐFELÜLET (UI) &amp; KOMPONENS SZABÁLYOK</text>
+
+    <!-- Buttons preview -->
+    <rect x="592" y="56" width="175" height="40" rx="10" fill="#FF2D55" />
+    <text x="679.5" y="81" text-anchor="middle" fill="#FFFFFF" font-family="'Roboto', sans-serif" font-size="13" font-weight="700">ELSŐDLEGES GOMB</text>
+
+    <rect x="782" y="56" width="185" height="40" rx="10" fill="#0F0F0F" fill-opacity="0.75" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.5" />
+    <text x="874.5" y="81" text-anchor="middle" fill="#FFFFFF" font-family="'Roboto', sans-serif" font-size="13" font-weight="600">MÁSODLAGOS GOMB</text>
+
+    <rect x="982" y="56" width="95" height="40" rx="10" fill="#5D549C" fill-opacity="0.4" stroke="#A373D3" stroke-width="1.2" />
+    <text x="1029.5" y="81" text-anchor="middle" fill="#EB9998" font-family="'Roboto', sans-serif" font-size="12" font-weight="700">3D ZOOM</text>
+
+    <text x="592" y="124" fill="#FFFFFF" fill-opacity="0.88" font-family="'Roboto', sans-serif" font-size="13">• Áttetsző sötét kártyák, amelyek mögött átsejlik a naplementés háttérkép</text>
+    <text x="592" y="144" fill="#FFFFFF" fill-opacity="0.88" font-family="'Roboto', sans-serif" font-size="13">• 12–16 px lekerekítés, vékony keretek, 150–250 ms finom átmenetek</text>
+    <text x="592" y="164" fill="#FFFFFF" fill-opacity="0.88" font-family="'Roboto', sans-serif" font-size="13">• Reszponzív autókártya-rács és áttetsző térképi szűrőpanelek</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="618" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2" />
+</svg>
