@@ -1,3 +1,12 @@
+<p align="center">
+  <strong>📖 Projekt Áttekintés</strong> &nbsp;·&nbsp;
+  <a href="./Technical-Overview.md"><strong>⚙️ Technikai Áttekintés</strong></a> &nbsp;·&nbsp;
+  <a href="#funkciók-és-ötletek-kategóriánként">Funkciók</a> &nbsp;·&nbsp;
+  <a href="#stílusirány-és-vizuális-megjelenés">Stílusirány</a>
+</p>
+
+---
+
 # GTA 6 Interaktív Segédalkalmazás (Vizsgaremek)
 
 ![GTA VI Companion Banner](./assets/banner.svg)

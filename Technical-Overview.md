@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="./README.md"><strong>📖 Projekt Áttekintés</strong></a> &nbsp;·&nbsp;
+  <strong>⚙️ Technikai Áttekintés</strong> &nbsp;·&nbsp;
+  <a href="#1-tech-stack">Tech Stack</a> &nbsp;·&nbsp;
+  <a href="#2-gta-6-térkép-2d---3d-implementációs-terv">2D → 3D Térkép Terv</a>
+</p>
+
+---
+
 # Technikai Áttekintés (Technical Overview)
 
 > Fókuszban a **Web** és a **Backend** fejlesztés. A mobilos alkalmazások az utolsó fázisban épülnek a kész API-ra.
